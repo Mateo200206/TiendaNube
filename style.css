@@ -594,9 +594,131 @@
 }
 /* ------------------------------ */
 .seventh-page{
-    height: 100vh;
     background-color: white;
+    padding: 0 20px 60px 20px;
+    min-height: 100vh;
 }
 
+.seventh-page .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
 
+.left-side-7{
+    flex: 1.5;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.right-side-7{
+    flex: 2.8;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-7{
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+.border-bottom-7{
+    border-bottom: 1px solid #57585a5b;
+}
+
+.border-text-7{
+    border-bottom: 1px solid #57585a5b;
+    border-top: 1px solid #57585a5b;
+}
+
+.title-book-7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.title-book-7 span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.text-book-7 {
+    margin-top: 20px;
+    display: block;
+    padding-bottom: 25px;
+}
+
+.arrow-icon-up{
+    scale: -1;
+    background-color: #2563eb;
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+.arrow-icon-down{
+    background-color: #eff1f7;
+    color: rgb(33, 62, 145);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: auto;
+}
 /* ------------------------------------------------ */
+
+.footer-bottom {
+    background-color: #0050C3;
+    height: auto;
+}
+
+.footer-order{
+    display: flex;
+    margin: auto;
+}
+
+.left-footer{
+    color: #ffffff;
+    padding-right: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+.right-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button-footer{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.637);
+    text-decoration: none;
+}
+
+ .button-footer:hover {
+            color: white;
+        }
